@@ -9,7 +9,7 @@ import { createUserProfileDocument } from './firebase/firebase.utils';
 import React from 'react';
 import { onSnapshot } from 'firebase/firestore';
 import {connect} from 'react-redux';
-import {setCurrentUser} from './redux/user/user-actions';
+import {setCurrentUser} from './redux/user/user.actions';
 
 
 
